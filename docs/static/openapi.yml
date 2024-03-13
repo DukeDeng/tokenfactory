@@ -19546,9 +19546,6 @@ paths:
               maxSupply:
                 type: integer
                 format: int32
-              supply:
-                type: integer
-                format: int32
               canChangeMaxSupply:
                 type: boolean
       tags:
@@ -19592,17 +19589,9 @@ paths:
                 type: string
               description:
                 type: string
-              ticker:
-                type: string
-              precision:
-                type: integer
-                format: int32
               url:
                 type: string
               maxSupply:
-                type: integer
-                format: int32
-              supply:
                 type: integer
                 format: int32
               canChangeMaxSupply:
@@ -27614,9 +27603,6 @@ definitions:
       maxSupply:
         type: integer
         format: int32
-      supply:
-        type: integer
-        format: int32
       canChangeMaxSupply:
         type: boolean
   tokenfactory.tokenfactory.MsgCreateDenomResponse:
@@ -27630,17 +27616,9 @@ definitions:
         type: string
       description:
         type: string
-      ticker:
-        type: string
-      precision:
-        type: integer
-        format: int32
       url:
         type: string
       maxSupply:
-        type: integer
-        format: int32
-      supply:
         type: integer
         format: int32
       canChangeMaxSupply:
